@@ -13,9 +13,9 @@ CREATE TABLE apartments (
   price INT 
 );
 
- id | apartment_number | bedrooms | bathrooms | address | tenant | occupied | sq_ft | price
-----+------------------+----------+-----------+---------+--------+----------+-------+-------
-(0 rows)
+--  id | apartment_number | bedrooms | bathrooms | address | tenant | occupied | sq_ft | price
+-- ----+------------------+----------+-----------+---------+--------+----------+-------+-------
+-- (0 rows)
 
 
 -- OFFICES
@@ -32,9 +32,9 @@ CREATE TABLE offices (
   price INT
 );
 
- id | office_number | floors | sq_ft | cubicles | bathrooms | address | company | occupied | price
-----+---------------+--------+-------+----------+-----------+---------+---------+----------+-------
-(0 rows)
+--  id | office_number | floors | sq_ft | cubicles | bathrooms | address | company | occupied | price
+-- ----+---------------+--------+-------+----------+-----------+---------+---------+----------+-------
+-- (0 rows)
 
 
 -- STOREFRONTS
@@ -49,6 +49,6 @@ CREATE TABLE storefronts (
   outdoor_seating BOOLEAN
 );
 
- id | address | occupied | price | kitchen | sq_ft | owner | outdoor_seating
-----+---------+----------+-------+---------+-------+-------+-----------------
-(0 rows)
+--  id | address | occupied | price | kitchen | sq_ft | owner | outdoor_seating
+-- ----+---------+----------+-------+---------+-------+-------+-----------------
+-- (0 rows)
